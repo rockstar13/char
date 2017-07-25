@@ -5,7 +5,7 @@ var escape_html = require('escape-html');
 
 var server = http.createServer();
 var io = socketio(server);
-var port = 8080;
+var port = 3000;
 
 fs.readFile('./index.html',function(err, html_strings){
     if(err){
